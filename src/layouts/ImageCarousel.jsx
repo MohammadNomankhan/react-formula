@@ -36,8 +36,8 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div className="h-screen flex flex-col gap-2 justify-center items-center">
-      <p className="text-2xl">{NAMES[current]}</p>
+    <div className="h-screen bg-slate-900 flex flex-col gap-2 justify-center items-center">
+      <p className="text-2xl text-sky-200">{NAMES[current]}</p>
       <div className="flex gap-8 items-center">
         <NavButton
           direction="left"
