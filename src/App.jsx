@@ -16,11 +16,15 @@ import Messages from './layouts/Messages';
 import Bounce from './layouts/Bounce';
 import SelectBg from './layouts/SelectBg';
 import CatDirectory from './layouts/CatDirectory';
+import FetchRecipe from './layouts/FetchRecipe';
+import RandomJoke from './layouts/RandomJoke';
+import Teammates from './layouts/Teammates';
+import Stocks from './layouts/Stocks';
+import States from './layouts/States';
 
 
-function App() {
-  
-  return <CatDirectory />;
+function App() {  
+  return <States />;
 
 }
 
