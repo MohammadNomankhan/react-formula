@@ -21,10 +21,13 @@ import RandomJoke from './layouts/RandomJoke';
 import Teammates from './layouts/Teammates';
 import Stocks from './layouts/Stocks';
 import States from './layouts/States';
+import Posts from './layouts/Posts';
+import Cart from './layouts/Cart';
+import Todo from './layouts/Todo';
 
 
 function App() {  
-  return <States />;
+  return <Todo />;
 
 }
 
